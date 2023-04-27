@@ -1,14 +1,3 @@
---[[
-
-		Gui2Lua™
-		10zOfficial
-		Version 1.0.0
-
-]]
-
-
--- Instances
-
 local KryptoniteWareUI = Instance.new("ScreenGui")
 local BlatantWindow = Instance.new("Frame")
 local BlatantLabel = Instance.new("TextLabel")
@@ -27,8 +16,6 @@ local CombatWindow = Instance.new("Frame")
 local CombatLabel = Instance.new("TextLabel")
 local UICorner_6 = Instance.new("UICorner")
 local CloseButton = Instance.new("TextButton")
-
--- Properties
 
 KryptoniteWareUI.Name = "KryptoniteWareUI"
 KryptoniteWareUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
