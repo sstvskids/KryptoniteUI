@@ -1,0 +1,199 @@
+--[[
+
+		Gui2Lua™
+		10zOfficial
+		Version 1.0.0
+
+]]
+
+
+-- Instances
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Frame_2 = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local Frame_3 = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local Frame_4 = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+
+-- Properties
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.new(0.231373, 0.231373, 0.231373)
+Frame.Position = UDim2.new(0.385913849, 0, 0.254328996, 0)
+Frame.Size = UDim2.new(0, 392, 0, 480)
+
+UICorner.Parent = Frame
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame_2.Position = UDim2.new(0.0408163294, 0, 0.0349485986, 0)
+Frame_2.Size = UDim2.new(0, 93, 0, 91)
+
+UICorner_2.Parent = Frame_2
+UICorner_2.CornerRadius = UDim.new(1, 9)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 1
+TextLabel.Position = UDim2.new(0.31377551, 0, 0.0701908916, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 26)
+TextLabel.Font = Enum.Font.Gotham
+TextLabel.Text = "JustAnAverageSkid"
+TextLabel.TextColor3 = Color3.new(1, 1, 1)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_2.BackgroundTransparency = 1
+TextLabel_2.Position = UDim2.new(0.31377551, 0, 0.12305434, 0)
+TextLabel_2.Size = UDim2.new(0, 170, 0, 20)
+TextLabel_2.Font = Enum.Font.Gotham
+TextLabel_2.Text = "@JustAnAverageSkid"
+TextLabel_2.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_3.BackgroundTransparency = 1
+TextLabel_3.Position = UDim2.new(0.31377551, 0, 0.171870425, 0)
+TextLabel_3.Size = UDim2.new(0, 137, 0, 20)
+TextLabel_3.Font = Enum.Font.GothamBold
+TextLabel_3.Text = "DOB: 2023/3/23"
+TextLabel_3.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = Frame
+TextLabel_4.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_4.BackgroundTransparency = 1
+TextLabel_4.Position = UDim2.new(0.0204081628, 0, 0.290748894, 0)
+TextLabel_4.Size = UDim2.new(0, 109, 0, 23)
+TextLabel_4.Font = Enum.Font.Gotham
+TextLabel_4.Text = "Exploits"
+TextLabel_4.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14
+TextLabel_4.TextWrapped = true
+
+Frame_3.Parent = Frame
+Frame_3.BackgroundColor3 = Color3.new(0.290196, 0.427451, 0.247059)
+Frame_3.Position = UDim2.new(0.0535714291, 0, 0.356828183, 0)
+Frame_3.Size = UDim2.new(0, 349, 0, 6)
+
+UICorner_3.Parent = Frame_3
+UICorner_3.CornerRadius = UDim.new(0, 2)
+
+TextLabel_5.Parent = Frame
+TextLabel_5.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_5.BackgroundTransparency = 1
+TextLabel_5.Position = UDim2.new(0.0510204099, 0, 0.383259922, 0)
+TextLabel_5.Size = UDim2.new(0, 115, 0, 29)
+TextLabel_5.Font = Enum.Font.Gotham
+TextLabel_5.Text = "AutoBank"
+TextLabel_5.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14
+TextLabel_5.TextWrapped = true
+
+TextLabel_6.Parent = Frame
+TextLabel_6.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_6.BackgroundTransparency = 1
+TextLabel_6.Position = UDim2.new(0.0510204099, 0, 0.447136581, 0)
+TextLabel_6.Size = UDim2.new(0, 115, 0, 29)
+TextLabel_6.Font = Enum.Font.Gotham
+TextLabel_6.Text = "AutoToxic"
+TextLabel_6.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14
+TextLabel_6.TextWrapped = true
+
+TextLabel_7.Parent = Frame
+TextLabel_7.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_7.BackgroundTransparency = 1
+TextLabel_7.Position = UDim2.new(0.0510204099, 0, 0.51101321, 0)
+TextLabel_7.Size = UDim2.new(0, 91, 0, 28)
+TextLabel_7.Font = Enum.Font.Gotham
+TextLabel_7.Text = "Flight"
+TextLabel_7.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14
+TextLabel_7.TextWrapped = true
+
+TextLabel_8.Parent = Frame
+TextLabel_8.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_8.BackgroundTransparency = 1
+TextLabel_8.Position = UDim2.new(0.0619446114, 0, 0.572773516, 0)
+TextLabel_8.Size = UDim2.new(0, 85, 0, 26)
+TextLabel_8.Font = Enum.Font.Gotham
+TextLabel_8.Text = "Speed"
+TextLabel_8.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14
+TextLabel_8.TextWrapped = true
+
+TextLabel_9.Parent = Frame
+TextLabel_9.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_9.BackgroundTransparency = 1
+TextLabel_9.Position = UDim2.new(0.0586734712, 0, 0.647577107, 0)
+TextLabel_9.Size = UDim2.new(0, 109, 0, 23)
+TextLabel_9.Font = Enum.Font.Gotham
+TextLabel_9.Text = "BEDWARS"
+TextLabel_9.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14
+TextLabel_9.TextWrapped = true
+
+Frame_4.Parent = Frame
+Frame_4.BackgroundColor3 = Color3.new(0.290196, 0.427451, 0.247059)
+Frame_4.Position = UDim2.new(0.0535714291, 0, 0.711453795, 0)
+Frame_4.Size = UDim2.new(0, 349, 0, 6)
+
+UICorner_4.Parent = Frame_4
+UICorner_4.CornerRadius = UDim.new(0, 2)
+
+TextLabel_10.Parent = Frame
+TextLabel_10.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_10.BackgroundTransparency = 1
+TextLabel_10.Position = UDim2.new(0.0306122452, 0, 0.790326715, 0)
+TextLabel_10.Size = UDim2.new(0, 361, 0, 33)
+TextLabel_10.Font = Enum.Font.Gotham
+TextLabel_10.Text = "Kit: Davy"
+TextLabel_10.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14
+TextLabel_10.TextWrapped = true
+
+TextLabel_11.Parent = Frame
+TextLabel_11.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_11.BackgroundTransparency = 1
+TextLabel_11.Position = UDim2.new(0.0306122452, 0, 0.85884732, 0)
+TextLabel_11.Size = UDim2.new(0, 361, 0, 33)
+TextLabel_11.Font = Enum.Font.Gotham
+TextLabel_11.Text = "Wins: 53"
+TextLabel_11.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 14
+TextLabel_11.TextWrapped = true
